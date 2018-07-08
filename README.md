@@ -21,3 +21,36 @@
 18. Async and Await
 19. Sets
 20. Web APIs
+
+### Some random code snippets
+
+Running strict mode within an iffy.
+```Javascript
+(function(){
+'use strict'
+})();
+
+```
+
+Defining functions
+
+```Javascript
+//define the function (function declaration)
+function fun(a,b){
+    return a+b;
+}
+//define the function (anonymous function expression)
+var fun = function(){
+
+};
+//define the function (named function expression)
+var fun = function fun(){
+
+};
+//a and b are called parameters
+
+//invoke the function
+fun(2,3)
+//2 and 3 are called arguments
+
+```
